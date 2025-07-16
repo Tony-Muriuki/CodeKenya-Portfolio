@@ -27,3 +27,17 @@ p {
   background-color: yellow;
   font-weight: bold;
 }
+span {
+  display: inline-block;
+  background: #ffe066;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 8px;
+}
+.hidden-text {
+  visibility: hidden;
+}
+
+.gone-text {
+  display: none;
+}
