@@ -57,3 +57,36 @@ ol {
   list-style-type: upper-roman;
   padding-left: 32px;
 }
+.box-relative {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  background: #f9c74f;
+  padding: 10px;
+  z-index: 2;
+}
+
+.box-absolute {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background: #90be6d;
+  z-index: 1;
+  padding: 10px;
+}
+
+.box-fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #577590;
+  color: #fff;
+  padding: 10px;
+}
+.overflow-box {
+  width: 200px;
+  height: 60px;
+  background: #f94144;
+  color: #fff;
+  overflow: auto;
+}
