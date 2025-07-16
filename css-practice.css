@@ -1,12 +1,29 @@
 body {
   background-color: #f0f8ff;
+  max-width: 600px;
+  margin: 40px auto;
 }
 h1 {
   color: #2a52be;
   font-family: Arial, sans-serif;
+  text-align: center;
+  border: 2px solid #457b9d;
+  margin-bottom: 24px;
+  padding: 20px;
 }
 
 p {
   color: #333;
+  width: 90%;
   font-size: 1.2em;
+  background-color: #e0f7fa;
+  border-bottom: 1px dashed #1d3557;
+  padding-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
 }
