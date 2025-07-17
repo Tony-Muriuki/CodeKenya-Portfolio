@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* === Custom Color Palette === */
+  --primary: #ff7e5f;
+  --primary-foreground: #ffffff;
+  --secondary: #463a41;
+  --secondary-foreground: #f2e9e4;
+  --accent: #feb47b;
+  --accent-foreground: #2a2024;
+  --background: #2a2024;
+  --background-foreground: #f2e9e4;
+  --muted: #392f35;
+  --muted-foreground: #d7c6bc;
+  --destructive: #e63946;
+  --destructive-foreground: #ffffff;
+  --border: #463a41;
+  --input: #463a41;
+  --ring: #ff7e5f;
+  /* === End Custom Palette === */
+}
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: var(--background);
+  color: var(--background-foreground);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-foreground);
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--background-foreground);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary);
+  transition: color 200ms;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent);
+  text-decoration: underline;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* === End Theme Styles (Lesson 24) === */
