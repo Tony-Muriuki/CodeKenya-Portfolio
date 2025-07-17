@@ -11,7 +11,7 @@ console.log(age == 30); // true
 console.log(age === 30); // true
 
 console.log(10 == "10"); // true
-console.log(10 === "10"); // false
+console.log(10 === "10");
 
 let featuredCount = 5;
 let featuredCountString = "5";
