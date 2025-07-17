@@ -86,7 +86,7 @@ ol {
 .overflow-box {
   width: 200px;
   height: 60px;
-  background: #f94144;
+  background: #f94144c2;
   color: #fff;
   overflow: auto;
 }
